@@ -7,7 +7,7 @@ read text
 fname = raw_input('enter filename:')
 print
 
-    try:
+try:
 	fobj = open(fname, 'r')
 except IOError, e:
 	print 'error:', e
